@@ -1,0 +1,52 @@
+.faq-layout{
+    position:relative;
+    margin-top:8px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:black;
+    color:white;
+}
+.faq-card{
+    position:relative;
+    display:flex;
+    justify-content: space-between;
+    background:#222;
+    padding:20px 30px;
+    margin-top:8px;
+    width:700px;
+}
+.plus{
+    width:30px;
+    transition: transform 0.15s;
+}
+.plus:active{
+    transform:rotate(45deg);
+}
+.about-layout{
+    position:relative;
+    display:flex;
+    background:black;
+    margin-top:8px;
+    justify-content: center;
+    color:grey;
+}
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+.grid-box{
+    position:relative;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap:20px;
+    padding-bottom:50px;
+}
+.a{
+    display: flex;
+    align-items: center;
+    position:absolute;
+    color:white;
+    right:50px;
+    bottom:0;
+}

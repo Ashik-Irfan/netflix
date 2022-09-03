@@ -1,0 +1,66 @@
+.vid1{
+    position:absolute;
+    height:auto;
+    max-width:63%;
+    top:50px;
+    left:90px;
+}
+.download-option{
+    display:flex;
+    position:relative;
+    background:black;
+    margin-top:8px;
+    padding-bottom:100px;
+}
+.download-card{
+    padding-top:30px;
+    padding-left:140px;
+    height:400px;
+    width:400px;
+}
+.mobile{
+    width:500px;
+}
+.download-animation-box{
+    background:black;
+    position:absolute;
+    display:flex;
+    top:280px;
+    left:220px;
+    align-items:center;
+    border: 2px solid hsla(0,0%,100%,0.25);
+    border-radius:0.75em;
+    height:80px;
+    padding:10px;
+}
+.download-cover-image{
+    height:80px;
+    max-width:100%;
+}
+.download-cover-text{
+    padding-left:15px;
+    padding-top:55px;
+    padding-bottom:20px;
+    padding-right:70px;
+    height:80px;
+}
+.download-movie-title{
+    color:white;
+    font-size: 18px;
+    margin:0;
+}
+.downloading{
+    margin-top:0px;
+    font-size:16px;
+    color:#0071EB;
+}
+.download-animation{
+    height:40px;
+}
+.download-text{
+    color:white;
+    width:550px;
+    padding-left:170px;
+    padding-top:90px;
+    padding-right:20px;
+}

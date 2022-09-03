@@ -1,0 +1,33 @@
+.enjoy{
+    position:relative;
+    margin-top:8px;
+    padding-bottom:40px;
+    padding-left:80px;
+    padding-right:80px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:500px;
+    color:white;
+    background:black;
+}
+.enjoy-text{
+    max-width:470px;
+}
+.tv{
+    position:relative;
+    height:auto;
+    max-width:500px;
+    z-index: 100;
+}
+.tv-section{
+    position:relative;
+    left:100px;
+}
+.vid{
+    position:absolute;
+    height:auto;
+    max-width:75%;
+    top:78px;
+    left:66px;
+}
